@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 h1 {
@@ -8,18 +9,19 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .orange {
     color: orange;
 }
 
-.helf-wieth {
+.helf-width {
     width: 50%;
     padding-left: 25px;
 }
 
-.helf-wieth img {
+.helf-width img {
     width: 80%;
 }
 
@@ -30,4 +32,15 @@ section {
     color: white;
     font-weight: 700;
     border-radius: 5px;
+}
+
+.bg-image {
+    background-image: url(photo/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.bg-dream {
+    background-image: url(photo/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
